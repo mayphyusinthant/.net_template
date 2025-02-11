@@ -12,7 +12,7 @@ Initial Steps to develop web app using mvc.net & C# in Visual Studio Code
 
 ✨ Run The Project
 	dotnet run
-	dotnet project built and run on http://localhost:5186
+	dotnet project built and run on http://localhost:xxxx
 
 ✨ Make Changes in Razor View Model
 	Project Folder > Views > Home > Index.cshtml
