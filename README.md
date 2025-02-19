@@ -7,22 +7,22 @@ Initial Steps to develop web app using mvc.net & C# in Visual Studio Code
 ✨ Install ASP.NET Helper
 
 ✨ Create a new ASP.NET Core MVC project
-	dotnet new mvc -n PetitionApp
-	cd MyAspNetMvcApp
+	- dotnet new mvc -n PetitionApp
+	- cd MyAspNetMvcApp
 
 ✨ Run The Project
-	dotnet run
-	dotnet project built and run on http://localhost:xxxx
+	- dotnet run
+	- dotnet project built and run on http://localhost:xxxx
 
 ✨ Make Changes in Razor View Model
-	Project Folder > Views > Home > Index.cshtml
-	Make some changes in contents and Link a html page inside the Index.cshtml
-	HTML Files can be stored in Content Folder. 
-	<a href="/Content/YourHtmlPage.html">New HTML Page</a>
+	- Project Folder > Views > Home > Index.cshtml
+	- Make some changes in contents and Link a html page inside the Index.cshtml
+	- HTML Files can be stored in Content Folder. 
+	- <a href="/Content/YourHtmlPage.html">New HTML Page</a>
 
 ✨ Configure Static File Serving in the program.cs
-	using Microsoft.Extensions.FileProviders;
-	app.UseStaticFiles();
+	- using Microsoft.Extensions.FileProviders;
+	- app.UseStaticFiles();
 
 	app.UseStaticFiles(new StaticFileOptions
 	{
@@ -31,17 +31,17 @@ Initial Steps to develop web app using mvc.net & C# in Visual Studio Code
 	});
 
 Additional Tips:
-Use the dotnet build and dotnet watch run commands for efficient development.
-Ensure that launch.json and tasks.json files in the .vscode directory are properly configured for debugging if required.
+- Use the dotnet build and dotnet watch run commands for efficient development.
+- Ensure that launch.json and tasks.json files in the .vscode directory are properly configured for debugging if required.
 Noted by May.
 
 
 ✨ SCSS Set Up
-npm install sass --save-dev
-npm install -g sass
-sass --version
-npm install bootstrap
-npm update bootstrap
+- npm install sass --save-dev
+- npm install -g sass
+- sass --version
+- npm install bootstrap
+- npm update bootstrap
 
 sass wwwroot/css/custom.scss wwwroot/css/custom.css --watch
 
