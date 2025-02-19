@@ -34,3 +34,14 @@ Additional Tips:
 Use the dotnet build and dotnet watch run commands for efficient development.
 Ensure that launch.json and tasks.json files in the .vscode directory are properly configured for debugging if required.
 Noted by May.
+
+
+✨ SCSS Set Up
+npm install sass --save-dev
+npm install -g sass
+sass --version
+npm install bootstrap
+npm update bootstrap
+
+sass wwwroot/css/custom.scss wwwroot/css/custom.css --watch
+
